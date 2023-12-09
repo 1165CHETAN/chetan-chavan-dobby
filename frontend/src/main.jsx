@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 import HomeScreen from './screens/HomeScreen.jsx';
 import PrivateRoute from './components/PrivateRoute.jsx';
-import LoginScreen from './screens/Loginscreen.jsx';
+import LoginScreen from './screens/LoginScreen.jsx';
 import RegisterScreen from './screens/RegisterScreen.jsx';
 import store from './store.js';
 import {Provider} from 'react-redux'
