@@ -10,10 +10,10 @@ const Hero = () => {
         <h2 className='text-center mb-4'> Welcome to 
   <span className='text-primary'> SecureConnect</span> Authentication!!
 </h2>
-          <p className='text-center mb-4'>
-            This is a boilerplate for MERN authentication that stores a JWT in
+          <p className='p-3 font-weight-bold d-flex flex-column text-center align-items-center bg-light text-dark w-75'>
+             MERN authentication that stores a JWT in
             an HTTP-Only cookie. It also uses Redux Toolkit and the React
-            Bootstrap library
+            Bootstrap library.
           </p>
           <div className='d-flex'>
             <LinkContainer to='/login'>
@@ -28,12 +28,7 @@ const Hero = () => {
           </div>
         </Card>
 
-        <Card className='p-3 d-flex flex-column align-items-center bg-primary text-white w-75'>
-  <h3 className='text-center mb-4'>Another Box</h3>
-  <p className='text-center mb-4'>
-    This is another box below the Hero component with some padding between them.
-  </p>
-</Card>
+    
       </Container>
     </div>
   );
