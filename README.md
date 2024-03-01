@@ -8,7 +8,7 @@
 1. Clone the repository:
    
    ```bash
-   git clone https://github.com/1165CHETAN/EarthGuardians
+   git clone https://github.com/1165CHETAN/chetan-chavan-dobby
 
 2. Install dependencies:
 
