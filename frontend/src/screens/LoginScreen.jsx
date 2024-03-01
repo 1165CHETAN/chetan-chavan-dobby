@@ -40,7 +40,7 @@ const LoginScreen = () => {
 
   return (
     <FormContainer>
-      <h2 className='text-primary'>Sign In</h2>
+      <h2 className='text-warning'>Sign In</h2>
 
       <Form onSubmit={submitHandler}>
         <Form.Group className='my-2' controlId='email'>
@@ -65,7 +65,7 @@ const LoginScreen = () => {
 
         { isLoading && <Loader/>}
 
-        <Button type='submit' variant='primary' className='mt-3'>
+        <Button type='submit' variant='warning' className='mt-3'>
           Sign In
         </Button>
       </Form>

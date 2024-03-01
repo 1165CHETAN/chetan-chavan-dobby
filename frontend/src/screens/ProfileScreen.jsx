@@ -53,7 +53,7 @@ const ProfileScreen = () => {
 
   return (
     <FormContainer>
-      <h1>Update profile</h1>
+      <h2 className='text-warning'>Update Profile</h2>
       <Form onSubmit={submitHandler}>
         <Form.Group className='my-2' controlId='name'>
           <Form.Label>Name</Form.Label>
@@ -96,7 +96,7 @@ const ProfileScreen = () => {
 
          {isLoading && <Loader/>}
 
-        <Button type='submit' variant='primary' className='mt-3'>
+        <Button type='submit' variant='warning' className='mt-3'>
           Update
         </Button>
       </Form>

@@ -15,6 +15,9 @@ const userSchema = mongoose.Schema({
     type: String,
     required: true
   },
+  profileImage: {
+    type: Buffer // Storing image data as binary data
+  },
 }, {
     timestamps: true
 });

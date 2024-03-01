@@ -10,7 +10,7 @@ import {
 import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
-import HomeScreen from './screens/HomeScreen.jsx';
+import Hero from './components/Hero.jsx';
 import PrivateRoute from './components/PrivateRoute.jsx';
 import LoginScreen from './screens/LoginScreen.jsx';
 import RegisterScreen from './screens/RegisterScreen.jsx';
@@ -22,8 +22,9 @@ import ProfileScreen from './screens/ProfileScreen';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
-      <Route index={true} path='/' element={<HomeScreen />} />
+      <Route index={true} path='/' element={<Hero />} />
       <Route path='/login' element={<LoginScreen />} />
+      
       <Route path='/register' element={<RegisterScreen />} />
       <Route path='' element={<PrivateRoute/>}>
         <Route path='/profile' element={<ProfileScreen />} />

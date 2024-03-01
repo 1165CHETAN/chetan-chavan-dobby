@@ -48,7 +48,7 @@ const RegisterScreen = () => {
 
   return (
     <FormContainer>
-      <h2 className='text-primary'>Register</h2>
+      <h2 className='text-warning'>Register</h2>
       <Form onSubmit={submitHandler}>
         <Form.Group className='my-2' controlId='name'>
           <Form.Label>Name</Form.Label>
@@ -91,7 +91,7 @@ const RegisterScreen = () => {
 
        {isLoading && <Loader/>}
 
-       <button type='submit' className='btn btn-primary mt-3 custom-btn'>
+       <button type='submit' className='btn btn-warning mt-3 custom-btn'>
       Register
     </button>
       </Form>

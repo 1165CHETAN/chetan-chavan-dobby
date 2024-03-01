@@ -24,10 +24,11 @@ const Header = () => {
   }
   return (
     <header>
-      <Navbar bg='primary' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar bg='warning' variant='dark' expand='lg' collapseOnSelect>
+        
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand>SecureConnect</Navbar.Brand>    
+            <Navbar.Brand>Dobby Adds</Navbar.Brand>    
           </LinkContainer>
           
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -50,7 +51,7 @@ const Header = () => {
                   <FaSignInAlt /> Sign In
                 </Nav.Link>
               </LinkContainer>
-             
+           
              
               <LinkContainer to='/register'>
                 <Nav.Link>
