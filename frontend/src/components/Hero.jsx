@@ -11,9 +11,7 @@ const Hero = () => {
   <span className='text-warning'> Dobby Adds</span> Assignment!!
 </h2>
           <p className='p-3 font-weight-bold d-flex flex-column text-center font-weight-bold align-items-center bg-light text-dark w-75'>
-             MERN authentication that stores a JWT in
-            an HTTP-Only cookie. It also uses Redux Toolkit and the React
-            Bootstrap library.
+          Let's weave your brand's success story together. Think creativity!! Thivnk dobby!!
           </p>
          
 
